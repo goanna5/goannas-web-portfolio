@@ -1,3 +1,4 @@
+import '../App.css';
 const Projects = () => {
     return <h1>Projects</h1>;
   };

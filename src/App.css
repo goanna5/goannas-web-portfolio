@@ -1,1 +1,18 @@
-/* something in here*/
+/* sourced and adapted from a project I did in 2020 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: #dedede;
+  color: #000;
+  line-height: 30px;
+}
+
