@@ -13,3 +13,11 @@ html {
 nav.bg-body-tertiary {
   background-color: #0c1f3d!important;
 }
+
+/* centering div of 404 page */
+.centre-div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
