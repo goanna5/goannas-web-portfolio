@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -8,15 +7,9 @@
 
 html {
   scroll-behavior: smooth;
-  
 }
 
 /* overriding the existing css */
 nav.bg-body-tertiary {
   background-color: #0c1f3d!important;
 }
-
-
-
-
-

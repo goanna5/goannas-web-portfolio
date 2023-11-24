@@ -11,8 +11,8 @@ function Navigation() {
       <Container>
         <Navbar.Brand href="/"><img
               src="../goanna.png"
-              width="50"
-              height="50"
+              width="70"
+              height="70"
               className="d-inline-block align-top"
               alt="Goanna logo"
             /></Navbar.Brand>
