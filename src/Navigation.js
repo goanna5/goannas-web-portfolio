@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navigation() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    
+    <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark" >
+      
       <Container>
         <Navbar.Brand href="/"><img
               src="../goanna.png"
@@ -14,6 +16,7 @@ function Navigation() {
               className="d-inline-block align-top"
               alt="Goanna logo"
             /></Navbar.Brand>
+            <Nav className="ml-auto">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -22,8 +25,10 @@ function Navigation() {
             <Nav.Link href="/about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        </Nav>
       </Container>
     </Navbar>
+   
   );
 }
 

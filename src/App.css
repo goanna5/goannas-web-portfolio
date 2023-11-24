@@ -1,18 +1,22 @@
-/* sourced and adapted from a project I did in 2020 */
 
 * {
   margin: 0;
   padding: 0;
+  background: #0c1f3d;
+  color: #fff;
 }
 
 html {
   scroll-behavior: smooth;
+  
 }
 
-body {
-  font-family: 'Kumbh Sans', sans-serif;
-  background: #dedede;
-  color: #000;
-  line-height: 30px;
+/* overriding the existing css */
+nav.bg-body-tertiary {
+  background-color: #0c1f3d!important;
 }
+
+
+
+
 
