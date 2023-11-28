@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <p>Coder icon created by <a href="https://www.flaticon.com/free-icons/coder" title="coder icons">Darius Dan</a></p>
+    <p>Coder icon created by <a href="https://www.flaticon.com/free-icons/coder" title="coder icons" className="hyperlinks">Darius Dan</a></p>
     </>
     )
   };
