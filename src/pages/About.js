@@ -19,6 +19,10 @@ const About = () => {
       <li>a minecraft mod because I enjoy playing, and I'm wishing to consolidate my Java knowledge</li>
       <li>and potentially more in the future</li>
     </ul>
+
+    <h3>Attributions</h3>
+    <p>Coder icon created by <a href="https://www.flaticon.com/free-icons/coder" title="coder icons" className="hyperlinks">Darius Dan</a></p>
+    
     </div>
     </>
     )

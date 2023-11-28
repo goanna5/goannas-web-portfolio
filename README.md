@@ -6,6 +6,11 @@ A portfolio to showcase some projects I will hopefully make, including:
 - a minecraft mod
 - and maybe more!
 
+# To do 
+- Spice up about page (!!!high priority, next in line)
+- Interactiveness on projects page & screen shots from projects once completed
+- Different icon for home page, one that fits colours better
+
 # Tech stack
 React, Node.js, HTML, CSS, Bootstrap
 
