@@ -1,23 +1,30 @@
-import '../App.css';
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   MDBCol,
   MDBRow,
 } from 'mdb-react-ui-kit';
+import '../App.css';
 
 
 const Projects = () => {
 
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    // trigger animation on component mount
+    setAnimate(true);
+  }, []);
+
+
     return (<>
-    <div className="projects-box">
+    <div className={`projects-box ${animate ? 'slide-in' : ''}`}>
     <h1>Projects</h1>
     <br></br>
 
 
     <MDBRow>
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-            <img src='../react.png' className='w-100' />
+            <a href="https://github.com/goanna5/goannas-web-portfolio"><img src='../react.png' className='w-100' alt="react logo"/></a>
           <h3>A web portfolio</h3>
           <p>And it's actually what you're viewing right now!! 
             P.S. check out the 404 error page, I'm very proud of it</p>
@@ -25,13 +32,13 @@ const Projects = () => {
         </MDBCol>
 
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-            <img src='../discord_bot.png' className='w-100' />
+            <a href="#"><img src='../discord_bot.png' className='w-100' alt="discord logo" /></a>
           <h3>Discord bot</h3>
           <p>In the works</p>
         </MDBCol>
 
         <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
-            <img src='../minecraft.jpg' className='w-100' />
+            <a href="#"><img src='../minecraft.jpg' className='w-100' alt="minecraft logo" /></a>
           <h3>Minecraft mod</h3>
           <p>Coming soon</p>
         </MDBCol>

@@ -41,3 +41,46 @@ nav.bg-body-tertiary {
 a:hover {
   color:#AEA8D3!important;
 }
+
+
+/* animations */
+.fade-in {
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-70%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-slower {
+  animation: slideInSlower 1.2s ease-in-out;
+}
+
+@keyframes slideInSlower {
+  from {
+    transform: translateX(-70%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
