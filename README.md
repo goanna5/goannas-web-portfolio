@@ -7,7 +7,7 @@ A portfolio to showcase some projects I will hopefully make, including:
 - and maybe more!
 
 # To do 
-- Spice up about page (!!!high priority, next in line)
+- Spice up about page (investigate Tailwind CSS), maybe include link to my goodreads idk
 - Interactiveness on projects page & screen shots from projects once completed
 - Different icon for home page, one that fits colours better
 
