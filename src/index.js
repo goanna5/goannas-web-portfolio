@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
+import TreasureHunt from "./pages/TreasureHunt";
 import reportWebVitals from './reportWebVitals';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="about" element={<About />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="treasure-hunt" element={<TreasureHunt />} />
         </Route>
       </Routes>
     </BrowserRouter>
