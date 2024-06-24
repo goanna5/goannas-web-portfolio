@@ -56,7 +56,7 @@ const About = () => {
     <Card style={{ width: '25rem' }} className={`right-card img-hover-scale ${animate ? 'slide-in-right' : ''}`}>
     <Card.Body>
       <p>My Github</p>
-      <a href="https://github.com/goanna5"><img src="../github.png" alt="Github logo" class="social-icon" /></a>
+      <a href="https://github.com/goanna5"><img src="../github.png" alt="Github logo" className="social-icon" /></a>
      
 
     </Card.Body>

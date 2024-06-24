@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
 import TreasureHunt from "./pages/TreasureHunt";
+import SecretPage from "./pages/SecretPage";
 import reportWebVitals from './reportWebVitals';
 
 export default function App() {
@@ -18,6 +19,8 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="*" element={<NoPage />} />
           <Route path="treasure-hunt" element={<TreasureHunt />} />
+          <Route path={localStorage.getItem('randomString')} element={<SecretPage />} />
+          
         </Route>
       </Routes>
     </BrowserRouter>
