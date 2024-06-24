@@ -29,9 +29,8 @@ const About = () => {
     <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
     <Card style={{ width: '25rem' }} className={`left-card img-hover-scale ${animate ? 'slide-in-left' : ''}`}>
     <Card.Body>
-    <p>Hi, I'm <b>Anna</b> although my handle on pretty much everything is Goanna. I'm heading into my second year
-      of the integrated Bachelor of Computer Science and Master of Cyber Security at UQ, majoring in 
-      Cyber Security. </p>
+    <p>Hi, I'm <b>Anna</b> although my handle on pretty much everything is Goanna. I'm in my second year
+      of the integrated Bachelor of Computer Science and Master of Cyber Security at UQ. </p>
       <p className="squiggly">...................</p>
     </Card.Body>
     </Card>
