@@ -48,14 +48,15 @@ const TreasureHunt = () => {
       so that everyone looking at the source code can't cheat. Yes I see you 👀</p>
     <p><i><b>Example</b> format of a URL could be: https://goannas-web-portfolio.vercel.app/SPNTi5u37l</i></p>
     <p>3. Clues about this combo of letters/numbers are spread throughout my website, happy hunting!!</p>
-    <p>*NOTE* Having the console open is encouraged, but you should NOT be typing stuff into it. If you can read source code 
-      and type into the console this could be REALLY easy but please think of me who had to think up all these clues for you</p>
-    <br></br>
-    <p>Optional challenge if you feel like it: dont look for any clues and instead read the source code, and run the one command that shows
-      the secret string in full.</p>
-    <button onClick={setUp}>Click here to start/start again!!</button>
+    <p>*NOTE* Having the console open is encouraged. Although if you wanna cheat my code, check out the challenge section below.</p>
+      <button onClick={setUp}>Click here to start/start again!!</button>
     <button onClick={getReward}>Access my award that I've *already* got 😎</button> 
-    <br></br>
+    <br></br><br></br>
+    <div className="vulnerabilities">
+    <h2>Vulnerabilities that I decided to make into challenges:</h2>
+    <p>Challenge 1: don't look for any clues. Instead read source code and type something into the console to find the secret string.</p>
+    <p>Challenge 2: don't look for any clues and also don't type anything into the console. Instead read source code and modify cookies to access reward.</p>
+    </div>
     <div className="secret"><p>You've found a clue!! Reload the page to make sure the below info is updated (right now its likely wrong)</p>
     <p>The first 2 letters are {localStorage.getItem('randomString')[0]} & {localStorage.getItem('randomString')[1]}</p></div>
     </div>
