@@ -5,6 +5,7 @@
   color: #fff;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -118,4 +119,9 @@ a:hover {
 
 .social-icon {
   width: 70px;
+}
+
+.centre-div .secret p {
+  color:#0c1f3d!important;
+  font-size:2px;
 }

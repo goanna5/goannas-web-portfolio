@@ -1,5 +1,8 @@
 import '../App.css';
 const NoPage = () => {
+  // for treasure hunt
+  console.log("Third letter is " + localStorage.getItem('randomString')[2] +
+  "\n Click on the title on the Treasure Hunt page for 6 & 7");
     return (
     <>
     <div className="centre-div">

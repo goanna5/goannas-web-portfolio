@@ -3,6 +3,8 @@ import Button from '../Button.js';
 import React, { useState, useEffect } from 'react';
 
 const Home = () => {
+  // for treasure hunt
+  console.log("4th letter is " + localStorage.getItem('randomString')[3]);
 
   const [animate, setAnimate] = useState(false);
 

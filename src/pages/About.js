@@ -7,6 +7,8 @@ import {
 import React, { useState, useEffect } from 'react';
 
 const About = () => {
+  // for treasure hunt
+  console.log("It ends with " + localStorage.getItem('randomString')[7] + localStorage.getItem('randomString')[8] + localStorage.getItem('randomString')[9]);
 
   const [animate, setAnimate] = useState(false);
 
