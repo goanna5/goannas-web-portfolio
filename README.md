@@ -7,9 +7,12 @@ A portfolio to showcase some projects I will hopefully make, including:
 - and maybe more!
 
 # To do 
-- Spice up about page (investigate Tailwind CSS), maybe include link to my goodreads idk
-- Interactiveness on projects page & screen shots from projects once completed
-- Different icon for home page, one that fits colours better
+- Spice up about page & treasure hunt page (investigate Tailwind CSS) since no one likes looking at big chunks of text
+- Fix styling of buttons on treasure hunt page
+- Screen shots from projects once completed
+- Finalise the 'reward' since its pretty mid at the moment
+- Fix coder icon on home page?
+- When I learn better ways of hiding info in webpages I should do that to make it more difficult
 
 # Tech stack
 React, Node.js, HTML, CSS, Bootstrap
