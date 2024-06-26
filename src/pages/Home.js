@@ -33,10 +33,7 @@ const Home = () => {
             </a>
           </div>
           <div class="col-lg-6">
-            <h1
-              class={`display-5 fw-bold lh-1 mb-3 ${
-                animate ? "slide-in-left" : ""
-              }`}>
+            <h1 class={`display-5 fw-bold lh-1 mb-3 ${animate ? "slide-in-left" : ""}`}>
               This is Goanna's portfolio
             </h1>
             <br></br>
@@ -44,10 +41,8 @@ const Home = () => {
               A BCompSci/MCyberSec student at UQ. Check out my projects!
             </p>
             <div
-              class={`d-grid gap-2 d-md-flex justify-content-md-start ${
-                animate ? "fade-in" : ""
-              }`}>
-              {/* Button in here */}
+              class={`d-grid gap-2 d-md-flex justify-content-md-start ${animate ? "fade-in" : ""}`}
+            >
               <Button />
             </div>
           </div>

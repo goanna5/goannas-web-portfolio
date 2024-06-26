@@ -20,10 +20,7 @@ export default function App() {
           <Route path="*" element={<NoPage />} />
           <Route path="treasure-hunt" element={<TreasureHunt />} />
           {secretPath && (
-            <Route
-              path={localStorage.getItem("randomString")}
-              element={<SecretPage />}
-            />
+            <Route path={localStorage.getItem("randomString")} element={<SecretPage />} />
           )}
         </Route>
       </Routes>

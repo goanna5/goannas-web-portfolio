@@ -1,15 +1,15 @@
-import '../App.css';
+import "../App.css";
 import { Outlet } from "react-router-dom";
 import Navigation from "../Navigation.js";
 
 const Layout = () => {
   return (
     <>
-  <Navigation />
+      <Navigation />
 
       <Outlet />
     </>
-  )
+  );
 };
 
 export default Layout;
