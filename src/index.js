@@ -7,6 +7,7 @@ import About from "./pages/About";
 import NoPage from "./pages/NoPage";
 import TreasureHunt from "./pages/TreasureHunt";
 import SecretPage from "./pages/SecretPage";
+import reportWebVitals from './reportWebVitals';
 
 export default function App() {
   return (
@@ -28,3 +29,8 @@ export default function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
