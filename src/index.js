@@ -9,6 +9,7 @@ import TreasureHunt from "./pages/TreasureHunt";
 import SecretPage from "./pages/SecretPage";
 
 export default function App() {
+  const secretPath = localStorage.getItem("randomString");
   return (
     <BrowserRouter>
       <Routes>
@@ -18,13 +19,17 @@ export default function App() {
           <Route path="about" element={<About />} />
           <Route path="*" element={<NoPage />} />
           <Route path="treasure-hunt" element={<TreasureHunt />} />
-          <Route path={localStorage.getItem('randomString')} element={<SecretPage />} />
-          
+          {secretPath && (
+            <Route
+              path={localStorage.getItem("randomString")}
+              element={<SecretPage />}
+            />
+          )}
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
