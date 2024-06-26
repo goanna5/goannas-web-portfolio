@@ -1,11 +1,12 @@
-import './Button.css';
+import "./Button.css";
 const Button = () => {
-    return (
+  return (
     <>
-    <a href="/projects" className="btn btn-sm animated-button sandy-two">My projects</a> 
-
+      <a href="/projects" className="btn btn-sm animated-button sandy-two">
+        My projects
+      </a>
     </>
-    )
-  };
-  
-  export default Button;
+  );
+};
+
+export default Button;
