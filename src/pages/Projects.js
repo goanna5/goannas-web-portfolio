@@ -24,7 +24,7 @@ const Projects = () => {
             <h3>Web portfolio</h3>
             <p>
               And it's actually what you're viewing right now!! P.S. check out the 404 error page,
-              I'm very proud of it
+              I'm very proud of it. The treasure hunt is cool too :)
             </p>
             <a href="https://github.com/goanna5/goannas-web-portfolio" className="hyperlinks">
               Github Repo
@@ -37,8 +37,7 @@ const Projects = () => {
             </a>
             <h3>Discord bot</h3>
             <p>
-              All functionality is basically just identifying key words in messages - my GitHub repo
-              has more details on that :)
+              Slash commands implemented, use of APIs to fetch and process data.
             </p>
             <a href="https://github.com/goanna5/discord-bot" className="hyperlinks">
               Github Repo

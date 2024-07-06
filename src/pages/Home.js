@@ -26,8 +26,8 @@ const Home = () => {
                 src="./girl.png"
                 class="d-block mx-lg-auto img-fluid img-hover-scale"
                 alt="coder girl"
-                width="600"
-                height="400"
+                width="300"
+                height="200"
                 loading="lazy"
               />
             </a>

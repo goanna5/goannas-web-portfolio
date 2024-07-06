@@ -55,7 +55,7 @@ const About = () => {
                   this <b>website</b>, learning front-end web development
                 </li>
                 <li>
-                  a <b>discord bot</b> to play around with certain commands and possible API calls
+                  a <b>discord bot</b> to play around with slash commands and API calls
                 </li>
                 <li>
                   a <b>minecraft mod</b> because I enjoy playing, and I'm wishing to consolidate my
@@ -83,29 +83,10 @@ const About = () => {
       </MDBRow>
 
       <div className="attributions">
-        <h3>Attributions</h3>
         <p>
           Website developed by{" "}
           <a href="https://github.com/goanna5" className="hyperlinks">
             Anna/Goanna
-          </a>
-          .
-        </p>
-        <p>
-          Coder icon created by{" "}
-          <a
-            href="https://www.flaticon.com/free-icons/coder"
-            title="coder icons"
-            className="hyperlinks"
-          >
-            Darius Dan
-          </a>
-          .
-        </p>
-        <p>
-          Framework from{" "}
-          <a href="https://github.com/facebook/create-react-app" className="hyperlinks">
-            Create React App
           </a>
           .
         </p>

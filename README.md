@@ -1,6 +1,6 @@
 # My web portfolio
 
-A portfolio to showcase some projects I will hopefully make, including:
+A portfolio to showcase some projects I have made/will hopefully make, including:
 - this web app
 - a discord bot
 - a minecraft mod
@@ -11,8 +11,8 @@ A portfolio to showcase some projects I will hopefully make, including:
 - Fix styling of buttons on treasure hunt page
 - Screen shots from projects once completed
 - Finalise the 'reward' since its pretty mid at the moment
-- Fix coder icon on home page?
 - When I learn better ways of hiding info in webpages I should do that to make it more difficult
+- Investigate NextJS
 
 # Tech stack
 React, Node.js, HTML, CSS, Bootstrap
@@ -21,3 +21,5 @@ React, Node.js, HTML, CSS, Bootstrap
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Routing frameworks adapted from [W3Schools](https://www.w3schools.com/react/react_router.asp).
+
+Local storage issue fixed with help from [Spurk](https://github.com/Spurkus).
