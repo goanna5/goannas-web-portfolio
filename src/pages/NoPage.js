@@ -1,11 +1,17 @@
 import "../App.css";
+import React, { useEffect } from "react";
+
 const NoPage = () => {
-  // for treasure hunt
-  console.log(
-    "Third letter is " +
-      localStorage.getItem("randomString")[2] +
-      "\n Click on the title on the Treasure Hunt page for 6 & 7"
-  );
+  useEffect(() => {
+    // for treasure hunt
+    const secret = localStorage.getItem("randomString");
+    if (secret) {
+      console.log(
+        "Third letter is " + secret[2] + "\n Click on the title on the Treasure Hunt page for 6 & 7"
+      );
+    }
+  }, []);
+
   return (
     <>
       <div className="centre-div">

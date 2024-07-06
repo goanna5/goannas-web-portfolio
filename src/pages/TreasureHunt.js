@@ -42,6 +42,14 @@ const TreasureHunt = () => {
         localStorage.getItem("randomString")[6]
     );
   };
+
+  const firstTwo = () => {
+    const secret = localStorage.getItem("randomString");
+    if (secret) {
+      alert("The first 2 letters are " + secret[0] + secret[1]);
+    }
+  };
+
   return (
     <>
       <div className="centre-div">
@@ -87,12 +95,7 @@ const TreasureHunt = () => {
         </div>
         <div className="secret">
           <p>
-            You've found a clue!! Reload the page to make sure the below info is updated (right now
-            its likely wrong)
-          </p>
-          <p>
-            The first 2 letters are {localStorage.getItem("randomString")[0]} &{" "}
-            {localStorage.getItem("randomString")[1]}
+            You've found a clue!! Reload the page and then click <a onClick={firstTwo}>here.</a>
           </p>
         </div>
       </div>
