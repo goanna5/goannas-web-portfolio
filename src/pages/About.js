@@ -10,7 +10,12 @@ const About = () => {
     // for treasure hunt
     const randomString = localStorage.getItem("randomString");
     if (randomString) {
-      console.log("4th letter is " + randomString[3]);
+      console.log(
+        "It ends with " +
+          localStorage.getItem("randomString")[7] +
+          localStorage.getItem("randomString")[8] +
+          localStorage.getItem("randomString")[9]
+      );
     }
     // trigger animation on component mount
     setAnimate(true);
