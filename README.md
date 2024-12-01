@@ -1,3 +1,5 @@
+# WILL BE UNDERGOING MAJOR CHANGES THIS HOLIDAYS - I have realised my code style and no use of CSS frameworks is a bit of a drawback so this is getting updated :)
+
 # My web portfolio
 
 A portfolio to showcase some projects I have made/will hopefully make, including:
